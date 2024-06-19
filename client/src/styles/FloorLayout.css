@@ -1,0 +1,68 @@
+.floor-layout {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10px;
+}
+
+.floor {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.floor-number {
+    font-weight: bold;
+    width: 10%;
+    text-align: center;
+}
+
+.elevators {
+    display: flex;
+    gap: 5px;
+    flex: 1;
+    width: 90%;
+}
+
+.elevator {
+    width: 25px;
+    height: 25px;
+    background-color: #ccc;
+    border: 1px solid #999;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.elevator.current-floor {
+    background-color: #4CAF50;
+}
+
+.elevator-name {
+    font-size: 0.8rem;
+    text-align: center;
+    width: 25px;
+    margin-top: 5px;
+}
+
+@media (max-width: 480px) {
+    .floor-layout {
+        gap: 5px;
+    }
+
+    .floor-number {
+        width: 15%;
+    }
+
+    .elevators {
+        width: 85%;
+    }
+
+    .elevator {
+        width: 20px;
+        height: 20px;
+    }
+
+    .elevator-name {
+        font-size: 0.7rem;
+    }
+}

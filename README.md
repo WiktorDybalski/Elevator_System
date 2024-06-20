@@ -2,8 +2,7 @@
 # Elevator System
 
 ## Project description 
-Projekt "System Zarządzania Windami" to aplikacja webowa, która umożliwia zarządzanie 16 windami w budynku, optymalizując ich pracę w celu zapewnienia płynnego i efektywnego transportu użytkowników między piętrami. Aplikacja składa się z frontendu zbudowanego przy użyciu React oraz backendu stworzonego w Spring Boot, a całość jest zautomatyzowana i zarządzana za pomocą Gradle.
-
+The "Elevator Management System" project is a web application designed to manage 16 elevators in a building, optimizing their operation to ensure smooth and efficient transportation of users between floors. The application consists of a frontend built with React and a backend developed in Spring Boot, all automated and managed using Gradle.
 
 Technologies:
  - Frontend: React

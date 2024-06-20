@@ -54,7 +54,7 @@ npm start
 ## Demo
 
 Check out my simple website with this demo video:
-![demo](https://www.loom.com/share/0662b6cd86a242169e37f086e84505b7)
+ [Website demo](https://www.loom.com/share/0662b6cd86a242169e37f086e84505b7)
 
 ## Author
 

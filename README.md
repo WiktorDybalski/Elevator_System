@@ -53,7 +53,8 @@ npm start
 
 ## Demo
 
-![demo](https://github.com/WiktorDybalski/Elevator_System/blob/main/demo.mp4)
+Check out my simple website with this demo video:
+![demo](https://www.loom.com/share/0662b6cd86a242169e37f086e84505b7)
 
 ## Author
 

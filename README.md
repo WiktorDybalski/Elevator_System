@@ -22,6 +22,10 @@ Technologies:
  - Intuitive user interface for quickly calling an elevator.
  - Option to select the destination floor and view current assignments for each elevator.
 
+### Elevator algorythm:
+
+My elevator assignment algorithm handles pickup requests by first filtering elevators that are already moving in the direction of the requested floor. It assigns the request to the closest elevator among those moving in the desired direction. If no such elevators are found, the algorithm selects the nearest idle elevator to handle the request. Each elevator has two PriorityQueues working independently to manage upward and downward requests.
+
 ### Usage:
 
 Frontend and backend should be started on the separate terminal console
@@ -32,18 +36,18 @@ git clone <https://github.com/WiktorDybalski/Elevator_System.git>
 
 #### Starting the Backend:
 
+```sh
 .\gradlew.bat build
-
-.\gradlew.bat bootRun
+.\gradlew.bat run
+```
 
 #### Starting the Frontend:
 
+```sh
 cd client
-
 npm install
-
 npm start
-
+```
 
 ## Demo
 

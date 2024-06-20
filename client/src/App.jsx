@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import ElevatorInfo from "./ElevatorInfo.jsx";
 import FloorLayout from "./FloorLayout.jsx";
 import './App.css';
@@ -39,13 +39,14 @@ function App() {
                 <div className="sidebar">
                     <ElevatorInfo
                         elevators={elevators}
-                        simulationStarted={simulationStarted}
-                        setSimulationStarted={setSimulationStarted}
                         setElevators={setElevators}
                     />
                 </div>
                 <div className="main-content">
-                    <FloorLayout elevators={elevators} />
+                    <FloorLayout elevators={elevators}
+                                 simulationStarted={simulationStarted}
+                                 setSimulationStarted={setSimulationStarted}
+                    />
                 </div>
             </div>
         </div>

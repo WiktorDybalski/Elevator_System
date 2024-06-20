@@ -71,11 +71,7 @@ public class ElevatorSystem {
     }
 
     public List<Elevator> sendStatusUpdate() {
-        List<Elevator> currStatus = status();
-        for (Elevator elevator : currStatus) {
-            System.out.println("Current status: " + elevator.status());
-        }
-        return currStatus;
+        return status();
     }
 
     public void runSimulation() {

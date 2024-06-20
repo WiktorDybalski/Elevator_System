@@ -53,7 +53,7 @@ npm start
 
 ## Demo
 
-![demo](https://github.com/WiktorDybalski/Elevator_System/blob/main/demo.gif)
+![demo](https://github.com/WiktorDybalski/Elevator_System/blob/main/demo.mp4)
 
 ## Author
 

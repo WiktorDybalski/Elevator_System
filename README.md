@@ -50,6 +50,16 @@ cd Elevator_System
 .\gradlew.bat run
 ```
 
+or 
+
+```sh
+gradle build
+```
+
+```sh
+gradle run
+```
+
 #### Starting the Frontend:
 
 Open another terminale console

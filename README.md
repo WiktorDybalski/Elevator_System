@@ -9,6 +9,9 @@ Technologies:
  - Backend: Spring Boot
  - Build Automation: Gradle
 
+
+[Website](https://github.com/WiktorDybalski/Elevator_System/blob/main/demo1.png)
+
 ## Features:
 
 ### Elevator Management:

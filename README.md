@@ -36,20 +36,40 @@ Frontend and backend should be started on the separate terminal console
 git clone https://github.com/WiktorDybalski/Elevator_System.git
 ```
 
+```sh
+cd Elevator_System
+```
+
 #### Starting the Backend:
 
 ```sh
 .\gradlew.bat build
+```
+
+```sh
 .\gradlew.bat run
 ```
 
 #### Starting the Frontend:
 
+Open another terminale console
+
 ```sh
 cd client
+```
+
+```sh
+npm install @vitejs/plugin-react --save-dev
+```
+
+```sh
 npm install
+```
+
+```sh
 npm start
 ```
+Now take the link and paste it to the browser
 
 ## Demo
 

@@ -10,7 +10,7 @@ Technologies:
  - Build Automation: Gradle
 
 
-[Website](https://github.com/WiktorDybalski/Elevator_System/blob/main/demo1.png)
+![Website](https://github.com/WiktorDybalski/Elevator_System/blob/main/demo1.png)
 
 ## Features:
 

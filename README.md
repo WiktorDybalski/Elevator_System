@@ -55,7 +55,7 @@ cd Elevator_System
 Open another terminale console
 
 ```sh
-cd client
+cd Elevator_System/client
 ```
 
 ```sh
@@ -67,7 +67,7 @@ npm install
 ```
 
 ```sh
-npm start
+npm run dev
 ```
 Now take the link and paste it to the browser
 

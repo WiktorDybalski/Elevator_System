@@ -32,7 +32,9 @@ Frontend and backend should be started on the separate terminal console
 
 #### Cloning the Repository:
 
+```sh
 git clone <https://github.com/WiktorDybalski/Elevator_System.git>
+```
 
 #### Starting the Backend:
 
